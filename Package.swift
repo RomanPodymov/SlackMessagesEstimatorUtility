@@ -12,13 +12,14 @@ let package = Package(
         .executable(name: "smeu", targets: ["SlackMessagesEstimatorUtility"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/onevcat/Rainbow", from: "3.1.5"),
         .package(url: "https://github.com/RomanPodymov/SlackMessagesEstimator.git", from: "0.0.2"),
-        .package(url: "https://github.com/onevcat/Rainbow", from: "3.1.5")
+        .package(url: "https://github.com/SwifterSwift/SwifterSwift.git", from: "5.0.0")
     ],
     targets: [
         .target(
             name: "SlackMessagesEstimatorUtility",
-            dependencies: ["SlackMessagesEstimator", "Rainbow"]),
+            dependencies: ["Rainbow", "SlackMessagesEstimator", "SwifterSwift"]),
         .testTarget(
             name: "SlackMessagesEstimatorUtilityTests",
             dependencies: ["SlackMessagesEstimatorUtility"]),
