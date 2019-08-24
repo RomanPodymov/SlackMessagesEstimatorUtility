@@ -10,7 +10,7 @@ if CommandLine.argc > 1, let configurationFilePathArg = CommandLine.arguments[sa
     configurationFilePath = FileManager.default.currentDirectoryPath
 }
 if let configurationFilePathURL = URL(
-    string: URL(string: configurationFilePath + "/sme.yml")
+    string: configurationFilePath + "/sme.yml"
 ), let messagesEstimator = SlackMessagesEstimator(
     configurationFilePath: configurationFilePathURL
 ) {
