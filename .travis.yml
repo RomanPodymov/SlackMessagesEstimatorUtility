@@ -1,3 +1,9 @@
+addons:
+  homebrew:
+    packages:
+    - libressl
+    update: true
+
 matrix:
   include:
   - os: linux
