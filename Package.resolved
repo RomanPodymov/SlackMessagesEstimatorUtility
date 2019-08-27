@@ -29,6 +29,15 @@
         }
       },
       {
+        "package": "PromiseKit",
+        "repositoryURL": "https://github.com/mxcl/PromiseKit.git",
+        "state": {
+          "branch": null,
+          "revision": "4d8d1287d2e50c53a9f8430ffe88925292838c57",
+          "version": "6.11.0"
+        }
+      },
+      {
         "package": "Rainbow",
         "repositoryURL": "https://github.com/onevcat/Rainbow",
         "state": {
@@ -51,8 +60,8 @@
         "repositoryURL": "https://github.com/RomanPodymov/SlackMessagesEstimator.git",
         "state": {
           "branch": null,
-          "revision": "12c913843fd9221dd5e08fec0be648cd9b21296d",
-          "version": "0.0.2"
+          "revision": "c068c01a52c14f34e6b3aed77f7c5f29f3932b70",
+          "version": "0.0.3"
         }
       },
       {
