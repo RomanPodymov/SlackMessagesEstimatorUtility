@@ -13,6 +13,7 @@ mint install RomanPodymov/SlackMessagesEstimatorUtility
 
 ## Usage
 
+Create Slack bot at https://my.slack.com/services/new/bot. Then go to **Integration Settings** -> **API Token** and copy the token. You will use it as `token-for-the-app-you-created`.
 Create the following **sme.yml** file in any directory:
 
 ```yml
