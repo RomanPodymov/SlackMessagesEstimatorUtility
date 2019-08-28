@@ -2,6 +2,8 @@
 
 A robot that sends emojis for Slack messages.
 
+[![Build Status](https://travis-ci.com/RomanPodymov/SlackMessagesEstimatorUtility.svg?branch=master)](https://travis-ci.com/RomanPodymov/SlackMessagesEstimatorUtility)
+
 ## Installing
 
 Make sure Xcode 10.3 is installed first.
