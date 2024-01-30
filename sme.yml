@@ -1,7 +1,7 @@
 ---
 token: xoxb-103529578807-6553138794194-2fcoXfigPq0Tqwep6gdYjZpZ
 emojisToMessages:
-  reportChannelName: channelName
+  reportChannelName: testing_api_reports
   excludeUsers:
     - first user
     - second user

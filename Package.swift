@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -13,17 +13,14 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/onevcat/Rainbow", from: "4.0.1"),
-        .package(path: "../SlackMessagesEstimator__"),
+        .package(url: "https://github.com/RomanPodymov/SlackMessagesEstimator", branch: "code"),
         .package(url: "https://github.com/SwifterSwift/SwifterSwift.git", from: "6.0.0")
     ],
     targets: [
         .executableTarget(
             name: "SlackMessagesEstimatorUtility",
-            dependencies: [
-                .product(name: "Rainbow", package: "Rainbow"),
-                .product(name: "SwifterSwift", package: "SwifterSwift"),
-                .product(name: "SlackMessagesEstimator", package: "SlackMessagesEstimator__")
-            ]),
+            dependencies: ["Rainbow", "SwifterSwift", "SlackMessagesEstimator"]
+        ),
         .testTarget(
             name: "SlackMessagesEstimatorUtilityTests",
             dependencies: ["SlackMessagesEstimatorUtility"]),
