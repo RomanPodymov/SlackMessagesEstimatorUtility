@@ -19,24 +19,6 @@
       }
     },
     {
-      "identity" : "slackkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/RomanPodymov/SlackKit.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "4b0c7f139015a72f144f19903420a4d56e0ab5c0"
-      }
-    },
-    {
-      "identity" : "slackmessagesestimator__",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/RomanPodymov/SlackMessagesEstimator__.git",
-      "state" : {
-        "branch" : "code",
-        "revision" : "0a24a7a3f026c7c074ad1aac911e22ba68162e4c"
-      }
-    },
-    {
       "identity" : "starscream",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/daltoniam/Starscream",

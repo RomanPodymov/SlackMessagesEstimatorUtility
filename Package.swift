@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/onevcat/Rainbow", from: "4.0.1"),
-        .package(url: "https://github.com/RomanPodymov/SlackMessagesEstimator__.git", branch: "code"),
+        .package(path: "../SlackMessagesEstimator__"),
         .package(url: "https://github.com/SwifterSwift/SwifterSwift.git", from: "6.0.0")
     ],
     targets: [
