@@ -1,12 +1,10 @@
 # SlackMessagesEstimatorUtility
 
-A robot that sends emojis for Slack messages.
-
-[![Build Status](https://travis-ci.com/RomanPodymov/SlackMessagesEstimatorUtility.svg?branch=master)](https://travis-ci.com/RomanPodymov/SlackMessagesEstimatorUtility)
+A robot that estimates Slack messages.
 
 ## Installing
 
-Make sure Xcode 10.3 is installed first.
+Make sure Xcode 15.2 is installed first.
 
 ### [Mint](https://github.com/yonaskolb/mint)
 ```sh
@@ -43,7 +41,6 @@ emojisToMessages:
       textProperties:
         contains: 
           - another string
-...
 ```
 
 Then run:

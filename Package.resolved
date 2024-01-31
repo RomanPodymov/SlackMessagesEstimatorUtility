@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/RomanPodymov/SlackMessagesEstimator",
       "state" : {
-        "branch" : "code",
-        "revision" : "8a26d2f7e56e0e899d3f5fb63f08dc796c1d74a0"
+        "branch" : "master",
+        "revision" : "da14a3f8160cc597a464f25e869b093293fdec8c"
       }
     },
     {
