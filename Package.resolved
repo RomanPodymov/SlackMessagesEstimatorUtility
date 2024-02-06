@@ -24,7 +24,7 @@
       "location" : "https://github.com/RomanPodymov/SlackKit",
       "state" : {
         "branch" : "main",
-        "revision" : "dfa461a5b4e6dbc20e5a8ed62a570e96026ae875"
+        "revision" : "f2e671cfef781be386338b8c55ad5b4b63090de4"
       }
     },
     {
@@ -33,7 +33,7 @@
       "location" : "https://github.com/RomanPodymov/SlackMessagesEstimator",
       "state" : {
         "branch" : "master",
-        "revision" : "da14a3f8160cc597a464f25e869b093293fdec8c"
+        "revision" : "0cbc1f183af31bdf415e806c0547f024e11f3d9a"
       }
     },
     {
@@ -129,7 +129,7 @@
     {
       "identity" : "swifter",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/httpswift/swifter.git",
+      "location" : "https://github.com/httpswift/swifter",
       "state" : {
         "revision" : "9483a5d459b45c3ffd059f7b55f9638e268632fd",
         "version" : "1.5.0"
