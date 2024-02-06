@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/onevcat/Rainbow", from: "4.0.1"),
         .package(url: "https://github.com/RomanPodymov/SlackMessagesEstimator", branch: "master"),
-        .package(url: "https://github.com/SwifterSwift/SwifterSwift.git", from: "6.0.0")
+        .package(url: "https://github.com/SwifterSwift/SwifterSwift", from: "6.0.0")
     ],
     targets: [
         .executableTarget(
