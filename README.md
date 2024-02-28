@@ -1,6 +1,6 @@
 # SlackMessagesEstimatorUtility
 
-A robot that estimates Slack messages.
+An utility that estimates messages based on configuration file.
 
 ## Installing
 
@@ -13,7 +13,19 @@ mint install RomanPodymov/SlackMessagesEstimatorUtility
 
 ## Usage
 
-Create Slack bot at https://my.slack.com/services/new/bot. Then go to **Integration Settings** -> **API Token** and copy the token. You will use it as `token-for-the-app-you-created`. Add the bot to the channels you want to listen.
+### Setup a Classic App (the original text is [here](https://github.com/slackapi/hubot-slack/issues/584#issuecomment-611808704))
+
+* Create a classic app from https://api.slack.com/apps?new_classic_app=1
+    * Go to Features > OAuth & Permissions > Scopes
+    * Click "Add an OAuth Scope"
+    * Search "bot" and choose it
+* Go to Features > App Home
+    * Click "Add Legacy Bot User"
+    * Input "Display Name" and "Default username"
+    * Click "Add"
+* Go to Settings > Install App
+    * Click "Install App to Workspace"
+    * Complete the OAuth flow
 
 Create the following **sme.yml** file in any directory:
 
